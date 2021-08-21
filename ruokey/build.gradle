@@ -26,6 +26,7 @@ dependencies {
 	testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine')
 	testAnnotationProcessor('org.projectlombok:lombok')
 
+ 	runtimeOnly 'mysql:mysql-connector-java'
 }
 
 
