@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController 
 public class HelloController {
  
-  @RequestMapping("/") 
+  @RequestMapping("/asdsad") 
   public String index() { return "Hello Spring boot!"; }
  
 }

@@ -1,19 +1,20 @@
 package com.hih.ruokey;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
+//@Slf4j
 @Controller
 public class RouteController {
 
-	@RequestMapping("/asdsa")
+	@GetMapping({"/index","/error"})
 	public String index() {
 		
 		return "index";
 	}
 	
-	@RequestMapping("/{path:[^\\.]*}")
-	public String redirect() {
-		return "forward";
-	}
+	/*
+	 * @RequestMapping("/{path:[^\\.]*}") public String redirect() { return
+	 * "forward"; }
+	 */
 }
