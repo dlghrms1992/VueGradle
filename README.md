@@ -4,6 +4,7 @@
 - Framework : Spring Boot
 - Bulid : Gradle
 - JDK : JDK 8
+- Front : Vuejs
 
 ### 목표
 - Spring Boot + Vuejs를 하나의 프로젝트로 관리하고자 할때 One Build가 가능하도록 프로젝트를 구성하는 것
