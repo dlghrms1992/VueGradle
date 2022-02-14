@@ -55,6 +55,7 @@ task buildFrontEnd(type: NpmTask, dependsOn:['setUp']){
 	
 }
 
+
 processResources.dependsOn buildFrontEnd
 
 test {
