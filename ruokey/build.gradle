@@ -54,9 +54,7 @@ task buildFrontEnd(type: NpmTask, dependsOn:['setUp']){
 	args = ['run', 'build']
 	
 }
-
 processResources.dependsOn 'buildFrontEnd'
-
 test {
 	useJUnitPlatform()
 }
