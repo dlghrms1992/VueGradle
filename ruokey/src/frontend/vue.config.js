@@ -4,11 +4,12 @@ module.exports = {
 	indexPath : "../static/index.html",
 	devServer: {
 		proxy: {
-			'/': { 
-				target:'http://localhost:12000',
-				ws: true,
-				changeOrigin: true
-			},
-		}
-	}
+				'/api': {
+					target: 'http://localhost:9000',
+					ws: true,
+					changeOrigin: true
+				}
+			}
+		},
+	
 }

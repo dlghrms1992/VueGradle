@@ -50,11 +50,11 @@ task setUp(type: NpmTask) {
 }
 
 task buildFrontEnd(type: NpmTask, dependsOn:['setUp']){
-	description = "Build vue.js"
 	args = ['run', 'build']
 	
 }
-processResources.dependsOn buildFrontEnd
+processResources.dependsOn 'buildFrontEnd'
+
 test {
 	useJUnitPlatform()
 }

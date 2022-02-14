@@ -11,6 +11,7 @@
     "core-js": "^3.6.5",
     "path": "^0.12.7",
     "request": "^2.88.2",
+    "requst": "^0.0.1-security",
     "vue": "^2.6.11"
   },
   "devDependencies": {
